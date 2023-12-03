@@ -54,6 +54,10 @@ nav {
 ul {
   list-style: none;
 }
+.go-back-btn {
+  display: block;
+  margin-top: 1rem;
+}
 .companies-container {
   box-sizing: border-box;
   display: flex;
@@ -87,4 +91,35 @@ ul {
   min-height: 150px;
   max-width: 200px;
   max-height: 200px;
+}
+
+.company-info-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px auto 30px;
+}
+.company-info-card-logo {
+  min-width: 300px;
+  max-width: 350px;
+  min-height: 300px;
+  max-height: 350px;
+}
+.company-about {
+  min-width: 300px;
+  max-width: 500px;
+}
+.company-about h4,
+.company-about h5,
+.company-about p {
+  margin: 0;
+}
+.company-about h4 {
+  font-size: 2.5rem;
+}
+.company-about h5 {
+  font-size: 1rem;
+  margin-bottom: 1.4rem;
+}
+.company-about p {
+  font-size: 1.125rem;
 }
