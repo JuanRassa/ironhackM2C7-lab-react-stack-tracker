@@ -8,7 +8,7 @@ function CompanyPage({ companiesData }) {
   return (
     <div>
       <Link className='go-back-btn' to='/'>
-        ← Go Back
+        ← Home
       </Link>
       <h1>Company Profile</h1>
       <div className='company-container'>
@@ -27,7 +27,7 @@ function CompanyPage({ companiesData }) {
               <div className='company-stack-wrapper '>
                 {companyInfo.techStack.map(stack => {
                   return (
-                    <Link to={`/tech/${stack.slug}`} className='company-stack-link' key={stack.name}>
+                    <Link to={`/tech/${stack.slug}/${companyInfo.name}`} className='company-stack-link' key={stack.name}>
                       <div className='company-stack-image-container'>
                         <img src={stack.image} alt={stack.name} />
                       </div>

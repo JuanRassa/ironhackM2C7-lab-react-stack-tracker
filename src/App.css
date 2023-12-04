@@ -103,6 +103,7 @@ ul {
   max-width: 350px;
   min-height: 300px;
   max-height: 350px;
+  object-fit: contain;
 }
 .company-about {
   min-width: 300px;
@@ -170,4 +171,18 @@ ul {
 }
 .company-stack-name {
   margin: 0;
+  min-height: 50px;
+}
+.return-to-company {
+  border-radius: 6px;
+  border: 1px solid black;
+  background-color: #747bff;
+  color: #fff;
+  font-weight: 700;
+  width: 270px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
